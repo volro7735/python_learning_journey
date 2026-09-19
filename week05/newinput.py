@@ -1,0 +1,5 @@
+name = input("What is your name? ")
+age = int(input("How old are you? "))
+years = int(input("How many years into the future? "))
+print(f"Hello {name.capitalize()}! ")
+print(f"In {years} years, you will be {age + years} years old. ") 
