@@ -1,0 +1,8 @@
+name = input("What is your name? ")
+age = input("How old are you? ")
+city = input("Where do you live? ")
+coloure = input("What is your favourite coloure? ")
+print("Hello,", name)
+print("You are", age, "years old.")
+print("You are live in", city)
+print("Your favourite colour is", coloure)
