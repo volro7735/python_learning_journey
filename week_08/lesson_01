@@ -1,0 +1,13 @@
+count = int(input("How many numbers do you want to enter? "))
+numbers = []
+for i in range(count):
+    number = int(input(f"Put number {i+1}: "))
+    numbers.append(number)
+for number in numbers:
+    if number > 0:
+        print(f"{number} is positive ")
+    elif number < 0:
+         print(f"{number} is negative ")
+    else:
+        print(f"{number} is zero ")
+print(f"Total numbers: {len(numbers)} ")
